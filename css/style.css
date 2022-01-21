@@ -3,3 +3,22 @@
     box-sizing: border-box;
     margin: 0;
 }
+main
+{
+    display: flex;
+    display: inline;
+    width: 100vw;
+    background: url("../image/nba-logo-on-wood.webp") no-repeat fixed ;
+
+}
+
+main article img
+{
+    width: 250px;
+
+}
+
+main article p
+{
+    width: 100%;
+}
