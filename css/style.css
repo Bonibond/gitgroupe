@@ -9,4 +9,11 @@ footer{
     background-color:rgb(83, 82, 77);
     justify-content:space-around;
     margin: 0 0 0 0 ;
-} 
+}
+p {
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+   } 
