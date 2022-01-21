@@ -1,4 +1,4 @@
-/* feuille de style principal */
+/* feuille de style principal
 *{
     box-sizing: border-box;
     margin: 0;
@@ -25,3 +25,38 @@ img {
     align-items: center;
 }
 
+} */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;  
+    
+    background-color:rgb(83, 82, 77);
+    margin: 0 0 0 0 ;
+}
+p {
+    
+    align-items: center;
+    color: whitesmoke;
+   } 
+   
+   i{
+       width: 20px;
+       height: 20px;
+   }
+   .bloc_paragraphe{
+       
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.bloc_icone_footer{
+    
+    
+    color: blue;
+}
