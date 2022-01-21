@@ -2,23 +2,49 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    
 }
 main
+{  
+    
+    width: 100vw;
+    height: 70vh;   
+    background: center / cover no-repeat url("../image/nba-logo-on-wood.webp") ;
+}
+
+main article
 {
     display: flex;
-    display: inline;
-    width: 100vw;
-    background: url("../image/nba-logo-on-wood.webp") no-repeat fixed ;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
 
+}
+
+.text
+{
+   text-align: center;
+   width: 50%;
+   margin-top: 20%;
+   color: red;
+
+}
+
+
+main h1
+{
+    
+    font-family: sans-serif;
+    color: white;
+    text-transform: uppercase;
 }
 
 main article img
 {
+    
     width: 250px;
-
-}
-
-main article p
-{
-    width: 100%;
+    
 }
