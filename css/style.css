@@ -1,5 +1,12 @@
-/* feuille de style principal */
+/* feuille de style principal
 *{
     box-sizing: border-box;
     margin: 0;
-}
+} */
+footer{
+    width: 100vw;  
+    /* height: 25vh; */
+    background-color:rgb(83, 82, 77);
+    justify-content:space-around;
+    margin: 0 0 0 0 ;
+} 
